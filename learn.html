@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2 id="h2">Learn jscript</h2>
+    <p id="demo">
+        after click on button showing date and time.
+    </p>
+    <!-- create button and event listener onclick to show  date and time by date function-->
+
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        click to show date and time
+    </button>
+
+    <!-- changed innertext by id of p-->
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Changed text'">
+        change inner text of tag p.
+    </button>
+
+    <!--changes the value of the src (source) attribute of an image.-->
+
+    <button id="btnoff" type="button" onclick="document.getElementById('bulb') .src ='/images/bulbon.gif'">
+        Turn On the Bulb
+    </button>
+    <!-- add image by img tag give id and style-->
+    <img id="bulb" src="/images/bulboff.gif" style="width: 100px;">
+        <!-- in this we change the style of fontsize of p-->
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='10px'">
+    change font size</button>
+    
+
+
+    <button type="button" onclick="document.getElementById('bulb').src ='/images/bulboff.gif'">
+        Turn Off the Bulb
+    </button>
+
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">
+        remove text from p</button>
+
+
+
+<!-- <script src="learn.js"> -->
+
+</script>
+</body>
+
+</html>
