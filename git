@@ -1,0 +1,4 @@
+git init // reintialize
+git add . //add respository
+git commit 'name ' // commit means provide today work keyword
+git push origin main // push to github
